@@ -1,0 +1,2 @@
+# Bloackchain-based-Academic-credential-verification-platform
+A blockchain-based platform designed to make academic certificate verification secure, simple, and reliable. It uses smart contracts and SHA-256 hashing to help prevent certificate forgery and detect document modifications. Students can share their credentials digitally, while employers and institutions can verify their authenticity easily.
