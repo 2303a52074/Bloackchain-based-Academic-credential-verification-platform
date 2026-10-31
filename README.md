@@ -1,4 +1,3 @@
-# Bloackchain-based-Academic-credential-verification-platform
 # Blockchain-Based Academic Credential Verification Platform
 
 ## About
