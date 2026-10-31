@@ -1,0 +1,6 @@
+{
+  "name": "CredentialChain",
+  "description": "Issue, share, and verify academic credentials with blockchain-backed integrity.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

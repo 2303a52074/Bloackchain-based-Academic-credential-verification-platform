@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "id": "stu_1791916762986_test1",
+      "name": "Rohan Deshmukh",
+      "email": "rohan.deshmukh@university.edu",
+      "studentId": "STU-2026-901",
+      "role": "student",
+      "passwordHash": "$2b$10$HFsQoS48/bLzuY5FyhZlAe6iFO4Zs8KEvwGiLnn4szktcjq.aoHEu",
+      "createdAt": "2026-10-13T18:39:22.986Z"
+    },
+    {
+      "id": "admin_1791916763264_test4",
+      "name": "Registrar Academic Services",
+      "email": "registrar@institution.edu",
+      "role": "admin",
+      "institution": "State Institute of Engineering",
+      "passwordHash": "$2b$10$fDAeYuvv5C5/0x2JJcKQT.m6srgnGgW/b4apNfddeP504GQnr2/vi",
+      "createdAt": "2026-10-13T18:39:23.264Z"
+    }
+  ],
+  "credentials": [
+    {
+      "id": "CRD-2026-ENG-8412",
+      "studentId": "STU-2026-901",
+      "studentName": "Rohan Deshmukh",
+      "studentEmail": "rohan.deshmukh@university.edu",
+      "degree": "Bachelor of Technology",
+      "major": "Computer Science and Engineering",
+      "institution": "State Institute of Engineering",
+      "issueDate": "2026-06-20",
+      "canonicalHash": "0xe2f499b74f93dc2d56d58820ff2aa9c1cc0fec22ab6962f49fbe7ea1796b4cc9",
+      "canonicalPayload": {
+        "degree": "Bachelor of Technology",
+        "id": "CRD-2026-ENG-8412",
+        "institution": "State Institute of Engineering",
+        "issueDate": "2026-06-20",
+        "major": "Computer Science and Engineering",
+        "studentId": "STU-2026-901",
+        "studentName": "Rohan Deshmukh"
+      },
+      "issuerId": "admin_1791916763264_test4",
+      "issuerName": "Registrar Academic Services",
+      "networkName": "Database Ledger (Consensus SHA-256)",
+      "onChainAnchored": false,
+      "status": "revoked",
+      "createdAt": "2026-10-13T18:39:23.356Z"
+    },
+    {
+      "id": "CRD-2026-OTHER-9999",
+      "studentId": "STU-OTHER-777",
+      "studentEmail": "other.student@university.edu",
+      "studentName": "Other Student",
+      "degree": "Bachelor of Arts",
+      "major": "Philosophy",
+      "institution": "State Institute",
+      "issueDate": "2026-05-15",
+      "canonicalHash": "0xabcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789",
+      "status": "valid",
+      "createdAt": "2026-10-13T18:39:23.781Z"
+    }
+  ],
+  "systemConfig": {
+    "adminProvisioned": true,
+    "createdAt": "2026-10-13T18:39:22.875Z"
+  }
+}
